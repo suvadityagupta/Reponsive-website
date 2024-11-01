@@ -215,6 +215,7 @@ header{
 .examples-area{
     justify-content: space-between;
     margin-block: 30px;
+    flex-wrap: wrap;
 }
 .examples-card{
     border-radius: 10px;
@@ -291,7 +292,4 @@ footer{
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-}
-@media screen and (max-width=991px) {
-    
 }
